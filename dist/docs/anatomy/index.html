@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Anatomy | Plotmatic CSS</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css@0.9.0/dist/charts.min.css">
+    <link rel="icon" href="/assets/img/logo.svg">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/assets/img/logo.svg" color="#f57">
+    <link rel="apple-touch-icon" href="/assets/img/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;700&amp;display=swap">
+    <meta name="description" content="CSS data visualization framework">
+    <meta name="theme-color" content="#f57">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/assets/img/logo.svg">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.78e809a4.css" as="style"><link rel="preload" href="/assets/js/app.10d27411.js" as="script"><link rel="preload" href="/assets/js/2.86b2ecd0.js" as="script"><link rel="preload" href="/assets/js/50.a2ffae2c.js" as="script"><link rel="preload" href="/assets/js/4.d3ddd571.js" as="script"><link rel="preload" href="/assets/js/5.04354424.js" as="script"><link rel="prefetch" href="/assets/js/10.d57c1a58.js"><link rel="prefetch" href="/assets/js/11.71231bfb.js"><link rel="prefetch" href="/assets/js/12.651971a6.js"><link rel="prefetch" href="/assets/js/13.01e1d5ce.js"><link rel="prefetch" href="/assets/js/14.1766cb1f.js"><link rel="prefetch" href="/assets/js/15.06da530e.js"><link rel="prefetch" href="/assets/js/16.c30b34a5.js"><link rel="prefetch" href="/assets/js/17.dd19429c.js"><link rel="prefetch" href="/assets/js/18.59790d78.js"><link rel="prefetch" href="/assets/js/19.1cbe2f27.js"><link rel="prefetch" href="/assets/js/20.e9d38ab0.js"><link rel="prefetch" href="/assets/js/21.7e0e350f.js"><link rel="prefetch" href="/assets/js/22.98845609.js"><link rel="prefetch" href="/assets/js/23.3e8b4fb8.js"><link rel="prefetch" href="/assets/js/24.981c7223.js"><link rel="prefetch" href="/assets/js/25.0bb87baa.js"><link rel="prefetch" href="/assets/js/26.97286bae.js"><link rel="prefetch" href="/assets/js/27.a02cac18.js"><link rel="prefetch" href="/assets/js/28.bba25db4.js"><link rel="prefetch" href="/assets/js/29.ee5a6cb0.js"><link rel="prefetch" href="/assets/js/3.9962ecfc.js"><link rel="prefetch" href="/assets/js/30.3a2201a7.js"><link rel="prefetch" href="/assets/js/31.7411a8dc.js"><link rel="prefetch" href="/assets/js/32.984e7c33.js"><link rel="prefetch" href="/assets/js/33.1044e7ca.js"><link rel="prefetch" href="/assets/js/34.88f1ae53.js"><link rel="prefetch" href="/assets/js/35.8fa0f3fb.js"><link rel="prefetch" href="/assets/js/36.22d9e607.js"><link rel="prefetch" href="/assets/js/37.4af42137.js"><link rel="prefetch" href="/assets/js/38.311d7466.js"><link rel="prefetch" href="/assets/js/39.9bb57cfb.js"><link rel="prefetch" href="/assets/js/40.f5bc41b4.js"><link rel="prefetch" href="/assets/js/41.ab4043a2.js"><link rel="prefetch" href="/assets/js/42.aaa4cfaa.js"><link rel="prefetch" href="/assets/js/43.2def363e.js"><link rel="prefetch" href="/assets/js/44.45a227fd.js"><link rel="prefetch" href="/assets/js/45.e464ebec.js"><link rel="prefetch" href="/assets/js/46.25ff48aa.js"><link rel="prefetch" href="/assets/js/47.f934888a.js"><link rel="prefetch" href="/assets/js/48.7c8f680f.js"><link rel="prefetch" href="/assets/js/49.b3ae2be1.js"><link rel="prefetch" href="/assets/js/51.f171ff91.js"><link rel="prefetch" href="/assets/js/52.999dbad1.js"><link rel="prefetch" href="/assets/js/53.2a551f4e.js"><link rel="prefetch" href="/assets/js/54.cb0c63e4.js"><link rel="prefetch" href="/assets/js/55.f4d59f43.js"><link rel="prefetch" href="/assets/js/56.90c3881b.js"><link rel="prefetch" href="/assets/js/57.4ad09961.js"><link rel="prefetch" href="/assets/js/58.ec60cf22.js"><link rel="prefetch" href="/assets/js/59.b752641c.js"><link rel="prefetch" href="/assets/js/6.ae64bf7f.js"><link rel="prefetch" href="/assets/js/60.1dafd3d2.js"><link rel="prefetch" href="/assets/js/61.a73951f0.js"><link rel="prefetch" href="/assets/js/62.0a8faff3.js"><link rel="prefetch" href="/assets/js/63.c307c610.js"><link rel="prefetch" href="/assets/js/64.df593066.js"><link rel="prefetch" href="/assets/js/65.151e5b28.js"><link rel="prefetch" href="/assets/js/7.692149ab.js"><link rel="prefetch" href="/assets/js/8.629c1ec4.js"><link rel="prefetch" href="/assets/js/9.a3bd23d6.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.78e809a4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/assets/img/logo.svg" alt="Plotmatic CSS" class="logo"> <span class="site-name can-hide">Plotmatic CSS</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link router-link-active">
+  Get Started
+</a></div><div class="nav-item"><a href="/components/" class="nav-link">
+  Components
+</a></div><div class="nav-item"><a href="/charts/" class="nav-link">
+  Charts
+</a></div><div class="nav-item"><a href="/customization/" class="nav-link">
+  Customization
+</a></div><div class="nav-item"><a href="/development/" class="nav-link">
+  Development
+</a></div><div class="nav-item"><a href="/examples/" class="nav-link">
+  Examples
+</a></div><div class="nav-item"><a href="https://github.com/PlotmaticCSS/charts.css" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub repo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/PlotmaticCSS/PlotmaticCSS.org" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link router-link-active">
+  Get Started
+</a></div><div class="nav-item"><a href="/components/" class="nav-link">
+  Components
+</a></div><div class="nav-item"><a href="/charts/" class="nav-link">
+  Charts
+</a></div><div class="nav-item"><a href="/customization/" class="nav-link">
+  Customization
+</a></div><div class="nav-item"><a href="/development/" class="nav-link">
+  Development
+</a></div><div class="nav-item"><a href="/examples/" class="nav-link">
+  Examples
+</a></div><div class="nav-item"><a href="https://github.com/PlotmaticCSS/charts.css" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub repo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/PlotmaticCSS/PlotmaticCSS.org" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/docs/" class="sidebar-heading clickable router-link-active open"><span>Get Started</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/installation/" class="sidebar-link">Installation</a></li><li><a href="/docs/usage/" class="sidebar-link">Usage</a></li><li><a href="/docs/anatomy/" aria-current="page" class="active sidebar-link">Anatomy</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/components/" class="sidebar-heading clickable"><span>Components</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/components/wrapper/" class="sidebar-link">Wrapper</a></li><li><a href="/components/heading/" class="sidebar-link">Heading</a></li><li><a href="/components/data/" class="sidebar-link">Data</a></li><li><a href="/components/datasets/" class="sidebar-link">Datasets</a></li><li><a href="/components/orientation/" class="sidebar-link">Orientation</a></li><li><a href="/components/labels/" class="sidebar-link">Labels</a></li><li><a href="/components/axes/" class="sidebar-link">Axes</a></li><li><a href="/components/spacing/" class="sidebar-link">Spacing</a></li><li><a href="/components/reverse-order/" class="sidebar-link">Reverse Order</a></li><li><a href="/components/colors/" class="sidebar-link">Colors</a></li><li><a href="/components/stacked/" class="sidebar-link">Stacked</a></li><li><a href="/components/tooltips/" class="sidebar-link">Tooltips</a></li><li><a href="/components/legend/" class="sidebar-link">Legend</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/charts/" class="sidebar-heading clickable"><span>Charts</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/charts/bar/" class="sidebar-link">Bar</a></li><li><a href="/charts/column/" class="sidebar-link">Column</a></li><li><a href="/charts/area/" class="sidebar-link">Area</a></li><li><a href="/charts/line/" class="sidebar-link">Line</a></li><li><a href="/charts/radial/" class="sidebar-link">Radial</a></li><li><a href="/charts/pie/" class="sidebar-link">Pie</a></li><li><a href="/charts/polar/" class="sidebar-link">Polar</a></li><li><a href="/charts/radar/" class="sidebar-link">Radar</a></li><li><a href="/charts/mixed/" class="sidebar-link">Mixed</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/customization/" class="sidebar-heading clickable"><span>Customization</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/customization/3d-effects/" class="sidebar-link">3D Effects</a></li><li><a href="/customization/motion-effects/" class="sidebar-link">Motion Effects</a></li><li><a href="/customization/animations/" class="sidebar-link">Animations</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/development/" class="sidebar-heading clickable"><span>Development</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/development/design-principles/" class="sidebar-link">Design Principles</a></li><li><a href="/development/supported-features/" class="sidebar-link">Supported Features</a></li><li><a href="/development/cheat-sheet/" class="sidebar-link">Cheat Sheet</a></li><li><a href="/development/roadmap/" class="sidebar-link">Roadmap</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/examples/" class="sidebar-heading clickable"><span>Examples</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/examples/chart-builder/" class="sidebar-link">Chart Builder</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="anatomy"><a href="#anatomy" class="header-anchor">#</a> Anatomy</h1> <p>The chart is made of several <a href="/components/">components</a> grouped together. The structure built with a simple HTML <code>&lt;table&gt;</code> element. The different components are styled using <strong>CSS classes</strong> which are defined on the parent element but applied on inner HTML tags.</p> <h2 id="chart-layers"><a href="#chart-layers" class="header-anchor">#</a> Chart Layers</h2> <p>The following animation shows how the various elements are separated into layers:</p> <div class="code-example"><style name="anatomy-layers">
+.layers-wrapper {
+	position: relative;
+	width: calc(100% * 0.42261826174); /* 100% * cos(65deg) */
+	width: 75%;
+    margin: 0 auto;
+	aspect-ratio: 1 / 1;
+}
+.layers-wrapper .charts-css {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 10px;
+	animation-name: animate_layers;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	--labels-size: 40px !important;
+	--heading-size: 40px !important;
+}
+.layers-wrapper .charts-css caption {
+	padding: 10px !important;
+}
+.layers-wrapper .charts-css:nth-child(1) {
+	--distance: -150px;
+}
+.layers-wrapper .charts-css:nth-child(2) {
+	--distance: -50px;
+}
+.layers-wrapper .charts-css:nth-child(3) {
+	--distance: 50px;
+}
+.layers-wrapper .charts-css:nth-child(4) {
+	--distance: 150px;
+}
+.layers-wrapper:hover .charts-css {
+	animation-play-state: paused;
+}
+@keyframes animate_layers {
+	5% {
+		transform: rotateX(0) rotate(0) translateZ(0);
+		background-color: rgba(255, 255, 255, 0);
+		box-shadow: none;
+	}
+	20%{
+		transform: rotateX(65deg) rotate(45deg) translateZ(var(--distance));
+		background-color: rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	}
+	35% {
+		transform: rotateX(65deg) rotate(-135deg) translateZ(var(--distance));
+	}
+	65% {
+		transform: rotateX(65deg) rotate(135deg) translateZ(var(--distance));
+	}
+	80% {
+		transform: rotateX(65deg) rotate(-45deg) translateZ(var(--distance));
+		background-color: rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	}
+	95% {
+		transform: rotateX(0) rotate(0) translateZ(0);
+		background-color: rgba(0, 0, 0, 0);
+		box-shadow: none;
+	}
+}
+</style> <div class="layers-wrapper"><table class="charts-css column show-heading show-labels show-primary-axis show-4-secondary-axes show-data-axes"><caption></caption> <tbody><tr><th></th> <td style="--size:0;"></td></tr> <tr><th></th> <td style="--size:0;"></td></tr> <tr><th></th> <td style="--size:0;"></td></tr> <tr><th></th> <td style="--size:0;"></td></tr> <tr><th></th> <td style="--size:0;"></td></tr></tbody></table> <table class="charts-css column show-heading show-labels data-spacing-15"><caption></caption> <tbody><tr><th></th> <td style="--size:0.2;"></td></tr> <tr><th></th> <td style="--size:0.4;"></td></tr> <tr><th></th> <td style="--size:0.6;"></td></tr> <tr><th></th> <td style="--size:0.8;"></td></tr> <tr><th></th> <td style="--size:1;"></td></tr></tbody></table> <table class="charts-css column show-heading show-labels"><caption></caption> <tbody><tr><th> 2016 </th></tr> <tr><th> 2017 </th></tr> <tr><th> 2018 </th></tr> <tr><th> 2019 </th></tr> <tr><th> 2020 </th></tr></tbody></table> <table class="charts-css column show-heading"><caption> Chart Heading </caption></table></div> <div class="open-in"><span>Open in:</span> <form method="post" target="check" action="https://codepen.io/pen/define"><input type="hidden" name="data" value="{&quot;title&quot;:&quot;Charts.css Example&quot;,&quot;tags&quot;:[&quot;charts.css&quot;,&quot;charts&quot;,&quot;chart&quot;],&quot;css_external&quot;:&quot;https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css&quot;,&quot;editors&quot;:&quot;110&quot;,&quot;html&quot;:&quot;&quot;,&quot;css&quot;:&quot;body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n}\n\n.layers-wrapper {\n\tposition: relative;\n\twidth: calc(100% * 0.42261826174); /* 100% * cos(65deg) */\n\twidth: 75%;\n    margin: 0 auto;\n\taspect-ratio: 1 / 1;\n}\n.layers-wrapper .charts-css {\n\tposition: absolute;\n\tinset: 0;\n\twidth: 100%;\n\theight: 100%;\n\tmargin: 0 auto;\n\tborder-radius: 10px;\n\tanimation-name: animate_layers;\n\tanimation-duration: 20s;\n\tanimation-iteration-count: infinite;\n\tanimation-timing-function: ease-in-out;\n\t--labels-size: 40px !important;\n\t--heading-size: 40px !important;\n}\n.layers-wrapper .charts-css caption {\n\tpadding: 10px !important;\n}\n.layers-wrapper .charts-css:nth-child(1) {\n\t--distance: -150px;\n}\n.layers-wrapper .charts-css:nth-child(2) {\n\t--distance: -50px;\n}\n.layers-wrapper .charts-css:nth-child(3) {\n\t--distance: 50px;\n}\n.layers-wrapper .charts-css:nth-child(4) {\n\t--distance: 150px;\n}\n.layers-wrapper:hover .charts-css {\n\tanimation-play-state: paused;\n}\n@keyframes animate_layers {\n\t5% {\n\t\ttransform: rotateX(0) rotate(0) translateZ(0);\n\t\tbackground-color: rgba(255, 255, 255, 0);\n\t\tbox-shadow: none;\n\t}\n\t20%{\n\t\ttransform: rotateX(65deg) rotate(45deg) translateZ(var(--distance));\n\t\tbackground-color: rgba(0, 0, 0, 0.1);\n\t\tbox-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);\n\t}\n\t35% {\n\t\ttransform: rotateX(65deg) rotate(-135deg) translateZ(var(--distance));\n\t}\n\t65% {\n\t\ttransform: rotateX(65deg) rotate(135deg) translateZ(var(--distance));\n\t}\n\t80% {\n\t\ttransform: rotateX(65deg) rotate(-45deg) translateZ(var(--distance));\n\t\tbackground-color: rgba(0, 0, 0, 0.1);\n\t\tbox-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);\n\t}\n\t95% {\n\t\ttransform: rotateX(0) rotate(0) translateZ(0);\n\t\tbackground-color: rgba(0, 0, 0, 0);\n\t\tbox-shadow: none;\n\t}\n}\n&quot;,&quot;turn_off_js&quot;:&quot;true&quot;}"> <input type="submit" value aria-label="Open in CodePen" title="Open in CodePen" class="codepen"></form> <form method="post" target="check" action="https://jsfiddle.net/api/post/library/pure/"><template><div class="layers-wrapper"><table class="charts-css column show-heading show-labels show-primary-axis show-4-secondary-axes show-data-axes"><caption></caption> <tbody><tr><th></th> <td style="--size:0;"></td></tr> <tr><th></th> <td style="--size:0;"></td></tr> <tr><th></th> <td style="--size:0;"></td></tr> <tr><th></th> <td style="--size:0;"></td></tr> <tr><th></th> <td style="--size:0;"></td></tr></tbody></table> <table class="charts-css column show-heading show-labels data-spacing-15"><caption></caption> <tbody><tr><th></th> <td style="--size:0.2;"></td></tr> <tr><th></th> <td style="--size:0.4;"></td></tr> <tr><th></th> <td style="--size:0.6;"></td></tr> <tr><th></th> <td style="--size:0.8;"></td></tr> <tr><th></th> <td style="--size:1;"></td></tr></tbody></table> <table class="charts-css column show-heading show-labels"><caption></caption> <tbody><tr><th> 2016 </th></tr> <tr><th> 2017 </th></tr> <tr><th> 2018 </th></tr> <tr><th> 2019 </th></tr> <tr><th> 2020 </th></tr></tbody></table> <table class="charts-css column show-heading"><caption> Chart Heading </caption></table></div></template> <input type="hidden" name="title" value="Charts.css Example"> <input type="hidden" name="resources" value="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css"> <textarea name="html"></textarea> <textarea name="css">body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.layers-wrapper {
+	position: relative;
+	width: calc(100% * 0.42261826174); /* 100% * cos(65deg) */
+	width: 75%;
+    margin: 0 auto;
+	aspect-ratio: 1 / 1;
+}
+.layers-wrapper .charts-css {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 10px;
+	animation-name: animate_layers;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	--labels-size: 40px !important;
+	--heading-size: 40px !important;
+}
+.layers-wrapper .charts-css caption {
+	padding: 10px !important;
+}
+.layers-wrapper .charts-css:nth-child(1) {
+	--distance: -150px;
+}
+.layers-wrapper .charts-css:nth-child(2) {
+	--distance: -50px;
+}
+.layers-wrapper .charts-css:nth-child(3) {
+	--distance: 50px;
+}
+.layers-wrapper .charts-css:nth-child(4) {
+	--distance: 150px;
+}
+.layers-wrapper:hover .charts-css {
+	animation-play-state: paused;
+}
+@keyframes animate_layers {
+	5% {
+		transform: rotateX(0) rotate(0) translateZ(0);
+		background-color: rgba(255, 255, 255, 0);
+		box-shadow: none;
+	}
+	20%{
+		transform: rotateX(65deg) rotate(45deg) translateZ(var(--distance));
+		background-color: rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	}
+	35% {
+		transform: rotateX(65deg) rotate(-135deg) translateZ(var(--distance));
+	}
+	65% {
+		transform: rotateX(65deg) rotate(135deg) translateZ(var(--distance));
+	}
+	80% {
+		transform: rotateX(65deg) rotate(-45deg) translateZ(var(--distance));
+		background-color: rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	}
+	95% {
+		transform: rotateX(0) rotate(0) translateZ(0);
+		background-color: rgba(0, 0, 0, 0);
+		box-shadow: none;
+	}
+}
+</textarea> <input type="submit" value aria-label="Open in jsFiddle" title="Open in jsFiddle" class="jsfiddle"></form></div></div> <p>As it was previously mentioned, the layers are composed of different HTML elements that are nestled inside the <code>&lt;table&gt;</code> tag.</p> <p>For example, the <a href="/components/heading/">heading</a> layer created from the <code>&lt;caption&gt;</code> tag, the data <a href="/components/labels/">labels</a> are created from the <code>&lt;th&gt;</code> tags, the <a href="/components/data/">data</a>/<a href="/components/datasets/">dataset</a> using <code>&lt;td&gt;</code> tags, and the <a href="/components/axes/">axes</a> layer is generated from the <code>&lt;tg&gt;</code> tags.</p> <h2 id="html-table"><a href="#html-table" class="header-anchor">#</a> HTML Table</h2> <p>The raw data is a basic HTML <code>&lt;table&gt;</code> tag visible to search engines and screen readers:</p> <table><caption> Chart Heading </caption> <thead><tr><th scope="col"> Year </th> <th scope="col"> Value </th></tr></thead> <tbody><tr><th> 2016 </th> <td style="--size:0.2;"> 20 </td></tr> <tr><th> 2017 </th> <td style="--size:0.4;"> 40 </td></tr> <tr><th> 2018 </th> <td style="--size:0.6;"> 60 </td></tr> <tr><th> 2019 </th> <td style="--size:0.8;"> 80 </td></tr> <tr><th> 2020 </th> <td style="--size:1.0;"> 100 </td></tr></tbody></table> <h2 id="chart-table"><a href="#chart-table" class="header-anchor">#</a> Chart Table</h2> <p>With the use of CSS classes, we can convert the raw data into a chart. These classes change the HTML structure's appearance.</p> <div class="language-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>charts-css column show-heading show-labels show-primary-axis show-4-secondary-axes show-data-axes data-spacing-15 hide-data<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>caption</span><span class="token punctuation">&gt;</span></span> Chart Heading <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>caption</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>col<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> Year <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>col<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> Value <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span> 2016 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">--size</span><span class="token punctuation">:</span>0.2<span class="token punctuation">;</span></span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span> 2017 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">--size</span><span class="token punctuation">:</span>0.4<span class="token punctuation">;</span></span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span> 2018 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">--size</span><span class="token punctuation">:</span>0.6<span class="token punctuation">;</span></span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span> 2019 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">--size</span><span class="token punctuation">:</span>0.8<span class="token punctuation">;</span></span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span> 2020 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">--size</span><span class="token punctuation">:</span>1.0<span class="token punctuation">;</span></span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><p>The result is an <code>&lt;table&gt;</code> tag displayed to the user as a chart:</p> <div class="code-example"><style name="anatomy-simple-chart">
+#anatomy-simple-chart {
+  height: 300px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+</style> <table id="anatomy-simple-chart" class="charts-css column show-heading show-labels show-primary-axis show-4-secondary-axes show-data-axes data-spacing-15 hide-data"><caption> Chart Heading </caption> <thead><tr><th scope="col"> Year </th> <th scope="col"> Value </th></tr></thead> <tbody><tr><th> 2016 </th> <td style="--size:0.2;"><span class="data"> 20 </span></td></tr> <tr><th> 2017 </th> <td style="--size:0.4;"><span class="data"> 40 </span></td></tr> <tr><th> 2018 </th> <td style="--size:0.6;"><span class="data"> 60 </span></td></tr> <tr><th> 2019 </th> <td style="--size:0.8;"><span class="data"> 80 </span></td></tr> <tr><th> 2020 </th> <td style="--size:1.0;"><span class="data"> 100 </span></td></tr></tbody></table> <div class="open-in"><span>Open in:</span> <form method="post" target="check" action="https://codepen.io/pen/define"><input type="hidden" name="data" value="{&quot;title&quot;:&quot;Charts.css Example&quot;,&quot;tags&quot;:[&quot;charts.css&quot;,&quot;charts&quot;,&quot;chart&quot;],&quot;css_external&quot;:&quot;https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css&quot;,&quot;editors&quot;:&quot;110&quot;,&quot;html&quot;:&quot;&quot;,&quot;css&quot;:&quot;body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n}\n\n#anatomy-simple-chart {\n  height: 300px;\n  max-width: 400px;\n  margin: 0 auto;\n}\n&quot;,&quot;turn_off_js&quot;:&quot;true&quot;}"> <input type="submit" value aria-label="Open in CodePen" title="Open in CodePen" class="codepen"></form> <form method="post" target="check" action="https://jsfiddle.net/api/post/library/pure/"><template><table id="anatomy-simple-chart" class="charts-css column show-heading show-labels show-primary-axis show-4-secondary-axes show-data-axes data-spacing-15 hide-data"><caption> Chart Heading </caption> <thead><tr><th scope="col"> Year </th> <th scope="col"> Value </th></tr></thead> <tbody><tr><th> 2016 </th> <td style="--size:0.2;"><span class="data"> 20 </span></td></tr> <tr><th> 2017 </th> <td style="--size:0.4;"><span class="data"> 40 </span></td></tr> <tr><th> 2018 </th> <td style="--size:0.6;"><span class="data"> 60 </span></td></tr> <tr><th> 2019 </th> <td style="--size:0.8;"><span class="data"> 80 </span></td></tr> <tr><th> 2020 </th> <td style="--size:1.0;"><span class="data"> 100 </span></td></tr></tbody></table></template> <input type="hidden" name="title" value="Charts.css Example"> <input type="hidden" name="resources" value="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css"> <textarea name="html"></textarea> <textarea name="css">body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#anatomy-simple-chart {
+  height: 300px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+</textarea> <input type="submit" value aria-label="Open in jsFiddle" title="Open in jsFiddle" class="jsfiddle"></form></div></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/PlotmaticCSS/PlotmaticCSS.org/edit/main/src/docs/anatomy.md" target="_blank" rel="noopener noreferrer">Edit this page on GitHub</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs/usage/" class="prev">
+        Usage
+      </a></span> <span class="next"><a href="/components/">
+        Components
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.10d27411.js" defer></script><script src="/assets/js/2.86b2ecd0.js" defer></script><script src="/assets/js/50.a2ffae2c.js" defer></script><script src="/assets/js/4.d3ddd571.js" defer></script><script src="/assets/js/5.04354424.js" defer></script>
+  </body>
+</html>
