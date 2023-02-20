@@ -9,14 +9,14 @@ No dependencies. 72kb file size. Less than 6kb gzipped file size!
 
 ## Documentation
 
-Check the full documentation on [ChartsCSS.org](https://ChartsCSS.org/).
+Check the full documentation on [Plotmatic CSS](https://plotmaticcss.netlify.app/).
 
-* [Get Started](https://chartscss.org/docs/)
-* [Components](https://chartscss.org/components/)
-* [Charts](https://chartscss.org/charts/)
-* [Customization](https://chartscss.org/customization/)
-* [Development](https://chartscss.org/development/)
-* [Examples](https://chartscss.org/examples/)
+* [Get Started](https://plotmaticcss.netlify.app/docs/)
+* [Components](https://plotmaticcss.netlify.app/components/)
+* [Charts](https://plotmaticcss.netlify.app/charts/)
+* [Customization](https://plotmaticcss.netlify.app/customization/)
+* [Development](https://plotmaticcss.netlify.app/development/)
+* [Examples](https://plotmaticcss.netlify.app/examples/)
 
 ## Installation
 
